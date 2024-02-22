@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="download.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Side Navigation Bar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(234,249,249,0.67) 0.1%, rgba(239,249,251,0.63) 90.1% );
+    }
+    
+    .sidenav {
+      background-image: linear-gradient(113.3deg, rgba(134,209,228,1) -1.8%, rgba(60,80,115,1) 86.4%);
+      height: 100%;
+      width: 300px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #333;
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
+    
+    .sidenav a {
+      padding: 10px 8px 10px 16px;
+      text-decoration: none;
+      font-size: 18px;
+      color: white;
+      display: block;
+    }
+    
+    .main {
+      margin-left: 330px;
+      padding: 20px;
+    }
+    
+    button {
+      align-items: center;
+      background-color: transparent;
+      color: #fff;
+      cursor: pointer;
+      display: flex;
+      font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 1.5;
+      text-decoration: none;
+      text-transform: uppercase;
+      outline: 0;
+      border: 0;
+      padding: 1rem;
+    }
+    
+    button:before {
+      background-color: #fff;
+      content: "";
+      display: inline-block;
+      height: 1px;
+      margin-right: 10px;
+      transition: all .42s cubic-bezier(.25, .8, .25, 1);
+      width: 0;
+    }
+    
+    button:hover:before {
+      background-color: #fff;
+      width: 3rem;
+    }
+    
+    .card {
+      align-items: center;
+      width: 190px;
+      height: 200px;
+      border-radius: 30px;
+      background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+      float: left; /* Added to float cards */
+      margin-right: 20px; /* Added to create space between cards */
+      margin-bottom: 20px; /* Added to create space between rows */
+    }
+    
+    .imageheart {
+      margin-left: 25%;
+      align-items: center;
+    }
+    
+    .cardtext {
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+    }
+
+
+
+    .logoimage{  display: block;
+  margin-left: auto;
+  margin-right: auto;
+      text-align: center;
+    }
+
+
+    .brand-text {
+      text-align: center;
+    color: #ececec;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    
+    font-weight: bold;
+    margin-top: 10px; /* Adjust the margin as needed */}
+
+
+
+  </style>
+
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="sms.html">
+  <img src="Vector.png" class="logoimage"  alt="Logo">
+  <div class="brand-text">FIT-O-PHILE</div>
+</a>
+
+
+  <button>
+    <a href="account.html">ACCOUNT</a>
+  </button>
+
+  <button>
+    <a href="notification.html">NOTIFICATION</a>
+  </button>
+  
+  <button>
+    <a href="report.html">REPORT</a>
+  </button>
+  <button>
+    <a href="about.html">ABOUT</a>
+    
+  </button>
+  
+  <button>
+    <a href="mainscreen.html">LOGOUT</a>
+    
+  </button>
+  
+
+
+
+
+
+  
+</div>
+
+
+
+
+
+
+<div class="main">
+  <h2 style="font-family: 'Courier New', Courier, monospace;">REPORT</h2>
+  <p>Download report by clicking on the button.</p>
+  
+                                       <button1 class="buttonDownload">Download</button1>
+  <p style="font-size: large; font-weight: bold;font-family: 'Courier New', Courier, monospace;">Details:</p>
+  
+  <div class="card">
+    <img class="imageheart" src="wired-lineal-1249-heart-beat (2).gif">
+    <div class="cardtext">HEART RATE
+      <p>4534635563</p>
+    </div>
+  </div>
+  
+  <!-- Second Card -->
+  <div class="card">
+    <img class="imageheart" style="margin-top: 20px; margin-bottom: 20px;margin-left: 33%; " src="sleep.png">
+    <div class="cardtext">Sleep Hours
+      <p>4534635563</p>
+    </div>
+  </div>
+  
+  <!-- Third Card -->
+  <div class="card">
+    <img class="imageheart" style="margin-top: 20px; margin-bottom: 20px;margin-left: 33%; " src="tracker.png">
+    <div class="cardtext">Foot steps
+      <p>4534635563</p>
+    </div>
+  </div>
+  
+  <!-- Fourth Card -->
+  <div class="card">
+    <img class="imageheart" src="wired-lineal-1249-heart-beat (2).gif">
+    <div class="cardtext">HEART RATE
+      <p>4534635563</p>
+    </div>
+  </div>
+  
+  
+</div>
+
+</body>
+</html>

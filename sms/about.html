@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Side Navigation Bar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+   
+      
+      
+    }
+    
+    .sidenav {
+      background-image: linear-gradient(113.3deg, rgba(134,209,228,1) -1.8%, rgba(60,80,115,1) 86.4%);
+      height: 100%;
+      width: 300px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #333;
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
+    
+    .sidenav a {
+      padding: 10px 8px 10px 16px;
+      text-decoration: none;
+      font-size: 18px;
+      color: white;
+      display: block;
+    }
+    
+    .main {
+      margin-left: 330px;
+      padding: 20px;
+      
+    }
+    
+    button {
+      align-items: center;
+      background-color: transparent;
+      color: #fff;
+      cursor: pointer;
+      display: flex;
+      font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 1.5;
+      text-decoration: none;
+      text-transform: uppercase;
+      outline: 0;
+      border: 0;
+      padding: 1rem;
+    }
+    
+    button:before {
+      background-color: #fff;
+      content: "";
+      display: inline-block;
+      height: 1px;
+      margin-right: 10px;
+      transition: all .42s cubic-bezier(.25, .8, .25, 1);
+      width: 0;
+    }
+    
+    button:hover:before {
+      background-color: #fff;
+      width: 3rem;
+    }
+   
+
+
+    .logoimage{  display: block;
+  margin-left: auto;
+  margin-right: auto;
+      text-align: center;
+    }
+
+
+    .brand-text {
+      text-align: center;
+    color: #ececec;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    
+    font-weight: bold;
+    margin-top: 10px; /* Adjust the margin as needed */}
+
+
+
+html{
+    background-image: url('fitimage.jpg');
+    background-repeat: no-repeat;
+    margin-left: 300px;
+    height: 150%;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </style>
+
+</head>
+<body>
+
+<div class="sidenav" >
+  <a href="sms.html">
+  <img src="Vector.png" class="logoimage"  alt="Logo">
+  <div class="brand-text">FIT-O-PHILE</div>
+ </a>
+
+
+ <button>
+  <a href="account.html">ACCOUNT</a>
+ </button>
+
+ <button>
+  <a href="notification.html">NOTIFICATION</a>
+ </button>
+
+ <button>
+  <a href="report.html">REPORT</a>
+ </button>
+
+ <button>
+    <a href="about.html">ABOUT</a>
+    
+ </button>
+  
+ <button>
+  <a href="mainscreen.html">LOGOUT</a>
+  
+ </button>
+</div>
+
+<div class="main" >
+  <h2 style="color: #ececec; text-align: center; margin-right: 310px;">About this application:</h2>
+ 
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
